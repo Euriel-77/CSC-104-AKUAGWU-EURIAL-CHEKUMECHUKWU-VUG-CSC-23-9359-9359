@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Products</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #af4c90;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Coffee Products</h1>
+    </header>
+
+    <section>
+        <div class="product">
+            <img src="pictures/cof3.jpg" alt="Coffee Product 1">
+            <h2>Arabica Blend</h2>
+            <p>Smooth and aromatic blend with a hint of chocolate.</p>
+            <p class="price">#1,500</p>
+            <button<li> <a href="orders.html"></button><li>
+        </div>
+
+        <div class="product">
+            <img src="pictures/cof2.jpg" alt="Coffee Product 2">
+            <h2>Dark Roast</h2>
+            <p>Rich and bold flavor, perfect for espresso lovers.</p>
+            <p class="price">#2,000</p>
+            <button<li> <a href="orders.html"></button><li></li>
+        </div>
+
+        <div class="product">
+            <img src="pictures/cof1.jpg" alt="Coffee Product 3">
+            <h2> Dark Nigerian Tea</h2>
+            <p>The very excotic taste of the African blend of spices.</p>
+            <p class="price">#1,500</p>
+            <button<li> <a href="orders.html"></button><li></li>
+        </div>
+
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Hut</title>
+</head>
+<body>
+    <footer>
+        <p>&copy; 2024 Coffee Hut. All rights reserved.</p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>
